@@ -1,2 +1,8 @@
 # Robotica-2026-2
-Archivo de la práctica de la asignatura de Robótica
+
+Repositorio para los archivos de la práctica 1 de la materia Robótica.
+
+## Integrantes
+- De Luna Santillan Jose de Jesus
+- Mejia Huertas Rodrigo Alfredo
+- Valdez  Brayan Julio
