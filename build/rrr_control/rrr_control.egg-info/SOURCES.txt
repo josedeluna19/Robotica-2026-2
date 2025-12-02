@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/rrr_control
+rrr_control/__init__.py
+rrr_control/planar_ik.py
+rrr_control/spatial_ik.py
+rrr_control.egg-info/PKG-INFO
+rrr_control.egg-info/SOURCES.txt
+rrr_control.egg-info/dependency_links.txt
+rrr_control.egg-info/entry_points.txt
+rrr_control.egg-info/requires.txt
+rrr_control.egg-info/top_level.txt
+rrr_control.egg-info/zip-safe

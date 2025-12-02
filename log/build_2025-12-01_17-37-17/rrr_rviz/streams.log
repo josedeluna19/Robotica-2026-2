@@ -1,0 +1,16 @@
+[0.638s] Invoking command in '/home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz': PYTHONPATH=/home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz/build --no-deps symlink_data
+[0.780s] running develop
+[0.873s] running egg_info
+[0.873s] writing rrr_rviz.egg-info/PKG-INFO
+[0.873s] writing dependency_links to rrr_rviz.egg-info/dependency_links.txt
+[0.873s] writing entry points to rrr_rviz.egg-info/entry_points.txt
+[0.873s] writing requirements to rrr_rviz.egg-info/requires.txt
+[0.873s] writing top-level names to rrr_rviz.egg-info/top_level.txt
+[0.874s] reading manifest file 'rrr_rviz.egg-info/SOURCES.txt'
+[0.874s] writing manifest file 'rrr_rviz.egg-info/SOURCES.txt'
+[0.875s] running build_ext
+[0.875s] Creating /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/lib/python3.10/site-packages/rrr-rviz.egg-link (link to .)
+[0.875s] 
+[0.875s] Installed /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz
+[0.875s] running symlink_data
+[0.891s] Invoked command in '/home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz' returned '0': PYTHONPATH=/home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz/build --no-deps symlink_data

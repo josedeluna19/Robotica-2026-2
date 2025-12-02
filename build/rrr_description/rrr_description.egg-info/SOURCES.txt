@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/rrr_description
+rrr_description/__init__.py
+rrr_description.egg-info/PKG-INFO
+rrr_description.egg-info/SOURCES.txt
+rrr_description.egg-info/dependency_links.txt
+rrr_description.egg-info/entry_points.txt
+rrr_description.egg-info/requires.txt
+rrr_description.egg-info/top_level.txt
+rrr_description.egg-info/zip-safe

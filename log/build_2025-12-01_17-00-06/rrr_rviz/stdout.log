@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating rrr_rviz.egg-info
+writing rrr_rviz.egg-info/PKG-INFO
+writing dependency_links to rrr_rviz.egg-info/dependency_links.txt
+writing entry points to rrr_rviz.egg-info/entry_points.txt
+writing requirements to rrr_rviz.egg-info/requires.txt
+writing top-level names to rrr_rviz.egg-info/top_level.txt
+writing manifest file 'rrr_rviz.egg-info/SOURCES.txt'
+reading manifest file 'rrr_rviz.egg-info/SOURCES.txt'
+writing manifest file 'rrr_rviz.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/lib/python3.10/site-packages/rrr-rviz.egg-link (link to .)
+
+Installed /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz
+running symlink_data
+creating /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/share/ament_index
+creating /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/share/ament_index/resource_index
+creating /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/share/ament_index/resource_index/packages
+symbolically linking /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz/resource/rrr_rviz -> /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/share/ament_index/resource_index/packages
+symbolically linking /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/build/rrr_rviz/package.xml -> /home/julio/Repo_Robotica_2026_2/Robotica-2026-2/install/rrr_rviz/share/rrr_rviz

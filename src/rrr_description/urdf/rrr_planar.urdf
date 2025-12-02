@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<robot name="rrr_planar">
+
+  <!-- BASE -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.05"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="gray">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- LINK1 -->
+  <link name="link1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.015" length="0.30"/>
+      </geometry>
+      <!-- Rotado para estar horizontal -->
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <!-- Link1 sale horizontal desde el joint -->
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <!-- LINK2 -->
+  <link name="link2">
+    <visual>
+      <geometry>
+        <cylinder radius="0.015" length="0.30"/>
+      </geometry>
+      <!-- Rotado para estar horizontal -->
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <material name="green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <!-- Conectado al final de link1 -->
+    <origin xyz="0.30 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <!-- LINK3 -->
+  <link name="link3">
+    <visual>
+      <geometry>
+        <cylinder radius="0.015" length="0.30"/>
+      </geometry>
+      <!-- Rotado para estar horizontal -->
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0.30 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+</robot>
