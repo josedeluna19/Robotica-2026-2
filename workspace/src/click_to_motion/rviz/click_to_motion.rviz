@@ -1,0 +1,90 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Robot1 Model1
+        - /Robot2 Model1
+      Splitter Ratio: 0.5
+    Tree Height: 718
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Enabled: true
+      Name: Grid
+      Plane: XY
+      Value: true
+
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robot1 Model
+      Enabled: true
+      Robot Description: robot1/robot_description
+      TF Prefix: robot1
+      Visual Enabled: true
+      Collision Enabled: false
+      Description Source: Topic
+      Description Topic: /robot1/robot_description
+
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robot2 Model
+      Enabled: true
+      Robot Description: robot2/robot_description
+      TF Prefix: robot2
+      Visual Enabled: true
+      Collision Enabled: false
+      Description Source: Topic
+      Description Topic: /robot2/robot_description
+
+    - Class: rviz_default_plugins/PointStamped
+      Name: Robot1 Clicked Point
+      Enabled: true
+      Topic: /robot1/workspace_target
+      Color: 255; 0; 0
+      History Length: 1
+
+    - Class: rviz_default_plugins/PointStamped
+      Name: Robot2 Clicked Point
+      Enabled: true
+      Topic: /robot2/workspace_target
+      Color: 0; 255; 0
+      History Length: 1
+
+  Enabled: true
+
+  Global Options:
+    Background Color: 48; 48; 48
+    Default Light: true
+    Fixed Frame: robot1/base_link
+
+  Name: root
+
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/PublishPoint
+      Topic: /robot1/clicked_point
+      Single Point: true
+      Name: PublishPoint Robot1
+    - Class: rviz_default_plugins/PublishPoint
+      Topic: /robot2/clicked_point
+      Single Point: true
+      Name: PublishPoint Robot2
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Focal Point: 0; 0; 0
+      Name: Orbit View
+      Pitch: 0.785398
+      Yaw: 0.785398
+      Distance: 2.5
+    Saved: ~

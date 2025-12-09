@@ -1,0 +1,27 @@
+[2.833s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/build --no-deps symlink_data
+[3.421s] running develop
+[3.897s] running egg_info
+[3.897s] creating example_description.egg-info
+[3.898s] writing example_description.egg-info/PKG-INFO
+[3.899s] writing dependency_links to example_description.egg-info/dependency_links.txt
+[3.901s] writing entry points to example_description.egg-info/entry_points.txt
+[3.901s] writing requirements to example_description.egg-info/requires.txt
+[3.902s] writing top-level names to example_description.egg-info/top_level.txt
+[3.902s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[3.904s] reading manifest file 'example_description.egg-info/SOURCES.txt'
+[3.908s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[3.908s] running build_ext
+[3.908s] Creating /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/lib/python3.10/site-packages/example-description.egg-link (link to .)
+[3.911s] 
+[3.911s] Installed /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description
+[3.912s] running symlink_data
+[3.912s] creating /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/ament_index
+[3.912s] creating /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/ament_index/resource_index
+[3.912s] creating /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/ament_index/resource_index/packages
+[3.912s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/resource/example_description -> /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/ament_index/resource_index/packages
+[3.912s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/package.xml -> /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/example_description
+[3.912s] creating /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/example_description/urdf
+[3.913s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/urdf/rrr_robot.urdf -> /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/example_description/urdf
+[3.915s] creating /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/example_description/rviz
+[3.915s] symbolically linking /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/rviz/rviz_config.rviz -> /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/share/example_description/rviz
+[3.997s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description' returned '0': PYTHONPATH=/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_description/build --no-deps symlink_data

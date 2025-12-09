@@ -1,0 +1,202 @@
+[1.382s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/example_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces
+[1.461s] -- The C compiler identification is GNU 11.4.0
+[1.535s] -- The CXX compiler identification is GNU 11.4.0
+[1.545s] -- Detecting C compiler ABI info
+[1.635s] -- Detecting C compiler ABI info - done
+[1.655s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.655s] -- Detecting C compile features
+[1.656s] -- Detecting C compile features - done
+[1.662s] -- Detecting CXX compiler ABI info
+[1.766s] -- Detecting CXX compiler ABI info - done
+[1.776s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.777s] -- Detecting CXX compile features
+[1.777s] -- Detecting CXX compile features - done
+[1.781s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.410s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[2.650s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.704s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.724s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.880s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.705s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.340s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.202s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.322s] -- Found PythonInterp: /home/robousr/.pyenv/shims/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.324s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.484s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.484s] -- Using PYTHON_EXECUTABLE: /home/robousr/.pyenv/shims/python3
+[5.484s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.484s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.622s] -- Found PythonExtra: .so  
+[5.935s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.059s] -- Added test 'lint_cmake' to check CMake code style
+[6.065s] -- Added test 'xmllint' to check XML markup files
+[6.093s] -- Configuring done
+[6.150s] -- Generating done
+[6.188s] -- Build files have been written to: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces
+[6.200s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/example_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces
+[6.206s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces -- -j8 -l8
+[6.289s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.338s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.353s] [  6%] Built target ament_cmake_python_symlink_example_interfaces
+[7.444s] [  6%] Built target example_interfaces__cpp
+[7.489s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.523s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.523s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.677s] running egg_info
+[7.678s] creating example_interfaces.egg-info
+[7.680s] writing example_interfaces.egg-info/PKG-INFO
+[7.685s] writing dependency_links to example_interfaces.egg-info/dependency_links.txt
+[7.686s] writing top-level names to example_interfaces.egg-info/top_level.txt
+[7.686s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[7.686s] [ 19%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/msg/detail/example_msg__functions.c.o[0m
+[7.687s] reading manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[7.687s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[7.766s] [ 19%] Built target ament_cmake_python_build_example_interfaces_egg
+[7.868s] [ 22%] [32m[1mLinking C shared library libexample_interfaces__rosidl_generator_c.so[0m
+[8.091s] [ 22%] Built target example_interfaces__rosidl_generator_c
+[8.159s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.161s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.172s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.591s] [ 35%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/msg/example_msg__type_support.cpp.o[0m
+[8.637s] [ 38%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/msg/detail/example_msg__type_support.cpp.o[0m
+[8.699s] [ 41%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/msg/detail/dds_fastrtps/example_msg__type_support.cpp.o[0m
+[9.013s] [ 45%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/msg/example_msg__type_support.cpp.o[0m
+[9.015s] [ 48%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/msg/detail/example_msg__type_support.c.o[0m
+[9.025s] [ 51%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/msg/detail/example_msg__type_support_c.cpp.o[0m
+[9.081s] [ 54%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_c.so[0m
+[9.082s] [ 58%] [32m[1mLinking C shared library libexample_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.133s] [ 58%] Built target example_interfaces__rosidl_typesupport_introspection_c
+[9.165s] [ 58%] Built target example_interfaces__rosidl_typesupport_c
+[9.200s] [ 61%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_cpp.so[0m
+[9.281s] [ 61%] Built target example_interfaces__rosidl_typesupport_cpp
+[9.372s] [ 64%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.472s] [ 64%] Built target example_interfaces__rosidl_typesupport_introspection_cpp
+[9.502s] [ 67%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.612s] [ 67%] Built target example_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.628s] [ 70%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.732s] [ 70%] Built target example_interfaces__rosidl_typesupport_fastrtps_c
+[9.757s] [ 70%] Built target example_interfaces
+[9.783s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.270s] [ 74%] Built target example_interfaces__py
+[10.302s] [ 77%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/msg/_example_msg_s.c.o[0m
+[10.510s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/libexample_interfaces__rosidl_generator_py.so[0m
+[10.565s] [ 80%] Built target example_interfaces__rosidl_generator_py
+[10.593s] [ 83%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.597s] [ 87%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.599s] [ 90%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.760s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.818s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.824s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.830s] [100%] Built target example_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.895s] [100%] Built target example_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.897s] [100%] Built target example_interfaces__rosidl_typesupport_c__pyext
+[11.408s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces -- -j8 -l8
+[11.411s] Invoking command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces
+[11.420s] -- Install configuration: ""
+[11.421s] -- Execute custom install script
+[11.422s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_interfaces
+[11.433s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__functions.h
+[11.444s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.h
+[11.455s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.h
+[11.470s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.h
+[11.481s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.493s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/library_path.sh
+[11.505s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/library_path.dsv
+[11.517s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h
+[11.528s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.540s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_c.h
+[11.553s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.570s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__builder.hpp
+[11.584s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.hpp
+[11.600s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__traits.hpp
+[11.618s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.hpp
+[11.633s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.hpp
+[11.650s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.664s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[11.675s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.686s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp
+[11.698s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/pythonpath.sh
+[11.708s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/pythonpath.dsv
+[11.720s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.730s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.740s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.751s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.762s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py
+[11.773s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c
+[11.784s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.795s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.806s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.816s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.827s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.837s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/libexample_interfaces__rosidl_generator_py.so
+[11.848s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py
+[11.858s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py
+[11.869s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg_s.c
+[11.880s] -- Up-to-date symlink: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.881s] -- Up-to-date symlink: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.881s] -- Up-to-date symlink: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.881s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.idl
+[11.893s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.msg
+[11.904s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+[11.915s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+[11.925s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+[11.936s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+[11.946s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/path.sh
+[11.957s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/environment/path.dsv
+[11.967s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/local_setup.bash
+[11.978s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/local_setup.sh
+[11.990s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/local_setup.zsh
+[12.002s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/local_setup.dsv
+[12.012s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/package.dsv
+[12.024s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+[12.034s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.045s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.057s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.068s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.079s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.090s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.101s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.111s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+[12.122s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+[12.133s] -- Symlinking: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/package.xml
+[12.143s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so
+[12.144s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so" to ""
+[12.144s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.145s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.145s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
+[12.146s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.146s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so
+[12.146s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so" to ""
+[12.147s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.147s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.147s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.148s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.148s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+[12.149s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.242s] Listing '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces'...
+[12.242s] Compiling '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py'...
+[12.242s] Listing '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg'...
+[12.243s] Compiling '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py'...
+[12.243s] Compiling '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py'...
+[12.248s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so
+[12.249s] -- Set runtime path of "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so" to ""
+[12.249s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake
+[12.249s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.249s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.250s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.250s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.250s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.250s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake
+[12.251s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.251s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cppExport.cmake
+[12.251s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.251s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.252s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.252s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.252s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport.cmake
+[12.252s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.252s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport.cmake
+[12.252s] -- Installing: /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.256s] Invoked command in '/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces

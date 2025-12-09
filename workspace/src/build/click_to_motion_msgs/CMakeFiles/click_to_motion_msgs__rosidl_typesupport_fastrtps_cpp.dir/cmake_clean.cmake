@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/click_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/dds_fastrtps/joint_control__type_support.cpp.o"
+  "CMakeFiles/click_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/dds_fastrtps/joint_control__type_support.cpp.o.d"
+  "CMakeFiles/click_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/dds_fastrtps/workspace_position__type_support.cpp.o"
+  "CMakeFiles/click_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/dds_fastrtps/workspace_position__type_support.cpp.o.d"
+  "libclick_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libclick_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/dds_fastrtps/joint_control__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/dds_fastrtps/workspace_position__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/joint_control__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/click_to_motion_msgs/msg/detail/workspace_position__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/click_to_motion_msgs__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

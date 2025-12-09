@@ -1,0 +1,6 @@
+setup.py
+click_to_motion_msgs/__init__.py
+click_to_motion_msgs.egg-info/PKG-INFO
+click_to_motion_msgs.egg-info/SOURCES.txt
+click_to_motion_msgs.egg-info/dependency_links.txt
+click_to_motion_msgs.egg-info/top_level.txt

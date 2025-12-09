@@ -1,0 +1,68 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Views
+    Name: Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Cell Size: 1
+      Color: 160;160;160
+      Alpha: 0.5
+
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robot1
+      Enabled: true
+      Robot Description: robot1/robot_description
+      TF Prefix: robot1
+
+    - Class: rviz_default_plugins/RobotModel
+      Name: Robot2
+      Enabled: true
+      Robot Description: robot2/robot_description
+      TF Prefix: robot2
+
+    - Class: rviz_default_plugins/PointStamped
+      Name: Clicked Robot1
+      Enabled: true
+      Topic: /robot1/clicked_point
+      Color: 255;0;0
+      Radius: 0.03
+
+    - Class: rviz_default_plugins/PointStamped
+      Name: Clicked Robot2
+      Enabled: true
+      Topic: /robot2/clicked_point
+      Color: 0;0;255
+      Radius: 0.03
+
+  Global Options:
+    Fixed Frame: world
+
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/PublishPoint
+      Topic: /robot1/clicked_point
+    - Class: rviz_default_plugins/PublishPoint
+      Topic: /robot2/clicked_point
+
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 3
+      Pitch: 0.5
+      Yaw: 0.5
+

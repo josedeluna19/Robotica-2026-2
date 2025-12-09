@@ -1,0 +1,6 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/example_interfaces:msg/ExampleMsg.msg"
+  ]
+}

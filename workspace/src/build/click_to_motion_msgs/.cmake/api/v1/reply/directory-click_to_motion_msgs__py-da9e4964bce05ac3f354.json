@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "click_to_motion_msgs__py",
+		"source" : "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/click_to_motion_msgs/click_to_motion_msgs__py"
+	}
+}

@@ -1,0 +1,5 @@
+[console_scripts]
+click_to_motion_planar = click_to_motion.planar_click_to_motion:main
+click_to_motion_spatial = click_to_motion.spatial_click_to_motion:main
+urdf_publisher = click_to_motion.urdf_publisher:main
+
