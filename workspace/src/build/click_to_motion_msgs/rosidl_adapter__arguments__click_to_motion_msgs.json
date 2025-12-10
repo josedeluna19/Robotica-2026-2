@@ -1,7 +1,0 @@
-{
-  "package_name": "click_to_motion_msgs",
-  "non_idl_tuples": [
-    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/click_to_motion_msgs:msg/JointControl.msg",
-    "/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/click_to_motion_msgs:msg/WorkspacePosition.msg"
-  ]
-}

@@ -1,1 +1,0 @@
-/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces/ament_cmake_environment_hooks/local_setup.bash

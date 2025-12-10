@@ -1,1 +1,0 @@
-/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/click_to_motion/launch/two_robots_final.launch.py

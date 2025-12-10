@@ -1,1 +1,0 @@
-/home/robousr/Semestre-2026-1/Workspaces/example_ws/src/build/example_interfaces/rosidl_generator_py/example_interfaces/msg/_example_msg_s.c
