@@ -9,8 +9,24 @@ Repositorio para los archivos de la práctica 1 de la materia Robótica.
 
 ## Instrucciones del work space
 
-1. rm -rf build install log
-2. colcon build --symlink-install
-3. source install/setup.bash
-4. ros2 launch click_to_motion two_robots_final.launch.py
-5. Tienes que cambiar el fixe frame a word
+rm -rf build install log
+source /opt/ros/humble/setup.bash
+colcon build --symlink-install --allow-overriding example_interfaces
+source install/setup.bash
+ros2 launch example_bringup rviz_bringup.launch.py
+
+En otra terminal 
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch example_bringup controler.launch.py
+
+rm -rf build install log
+source /opt/ros/humble/setup.bash
+colcon build --symlink-install --allow-overriding example_interfaces
+source install/setup.bash
+ros2 launch example_bringup rviz_bringup.launch.py
+
+En otra terminal 
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 launch example_bringup controler.launch.py
