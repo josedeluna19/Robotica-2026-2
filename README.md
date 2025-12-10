@@ -19,7 +19,9 @@ En otra terminal
 1. source /opt/ros/humble/setup.bash
 2. source install/setup.bash
 3. ros2 launch example_bringup controler.launch.py
-
+   
+ Segundo robot
+ 
 1. rm -rf build install log
 2. source /opt/ros/humble/setup.bash
 3. colcon build --symlink-install --allow-overriding example_interfaces
