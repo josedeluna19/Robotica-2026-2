@@ -1,0 +1,1 @@
+/home/robousr/workspace/proyecto/Spatial/build/example_interfaces/rosidl_generator_c/example_interfaces/msg/detail/example_msg__type_support.h

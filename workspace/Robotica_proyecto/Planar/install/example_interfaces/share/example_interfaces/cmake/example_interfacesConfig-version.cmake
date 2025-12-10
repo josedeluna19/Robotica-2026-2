@@ -1,0 +1,1 @@
+/home/robousr/workspace/proyecto/Planar/build/example_interfaces/ament_cmake_core/example_interfacesConfig-version.cmake

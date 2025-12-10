@@ -1,0 +1,6 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/home/robousr/workspace/proyecto/Planar/src/example_interfaces:msg/ExampleMsg.msg"
+  ]
+}

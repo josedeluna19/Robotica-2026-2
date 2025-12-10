@@ -1,0 +1,1 @@
+/home/robousr/workspace/proyecto/Spatial/src/example_interfaces/msg/ExampleMsg.msg

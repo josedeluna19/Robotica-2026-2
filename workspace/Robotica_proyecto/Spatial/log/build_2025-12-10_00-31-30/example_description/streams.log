@@ -1,0 +1,16 @@
+[1.052s] Invoking command in '/home/robousr/workspace/proyecto/Spatial/build/example_description': PYTHONPATH=/home/robousr/workspace/proyecto/Spatial/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/workspace/proyecto/Spatial/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/workspace/proyecto/Spatial/build/example_description/build --no-deps symlink_data
+[1.284s] running develop
+[1.436s] running egg_info
+[1.436s] writing example_description.egg-info/PKG-INFO
+[1.436s] writing dependency_links to example_description.egg-info/dependency_links.txt
+[1.436s] writing entry points to example_description.egg-info/entry_points.txt
+[1.436s] writing requirements to example_description.egg-info/requires.txt
+[1.436s] writing top-level names to example_description.egg-info/top_level.txt
+[1.438s] reading manifest file 'example_description.egg-info/SOURCES.txt'
+[1.438s] writing manifest file 'example_description.egg-info/SOURCES.txt'
+[1.439s] running build_ext
+[1.439s] Creating /home/robousr/workspace/proyecto/Spatial/install/example_description/lib/python3.10/site-packages/example-description.egg-link (link to .)
+[1.440s] 
+[1.440s] Installed /home/robousr/workspace/proyecto/Spatial/build/example_description
+[1.440s] running symlink_data
+[1.495s] Invoked command in '/home/robousr/workspace/proyecto/Spatial/build/example_description' returned '0': PYTHONPATH=/home/robousr/workspace/proyecto/Spatial/build/example_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/workspace/proyecto/Spatial/install/example_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/workspace/proyecto/Spatial/build/example_description/build --no-deps symlink_data

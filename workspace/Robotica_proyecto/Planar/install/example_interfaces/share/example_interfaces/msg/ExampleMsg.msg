@@ -1,0 +1,1 @@
+/home/robousr/workspace/proyecto/Planar/src/example_interfaces/msg/ExampleMsg.msg

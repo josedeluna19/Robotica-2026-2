@@ -1,0 +1,202 @@
+[0.571s] Invoking command in '/home/robousr/workspace/proyecto/Spatial/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/workspace/proyecto/Planar/install/example_pkg:/home/robousr/workspace/proyecto/Planar/install/example_description:/home/robousr/workspace/proyecto/Planar/install/example_control:/home/robousr/workspace/proyecto/Planar/install/example_bringup:/opt/ros/humble /usr/bin/cmake /home/robousr/workspace/proyecto/Spatial/src/example_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/workspace/proyecto/Spatial/install/example_interfaces
+[0.626s] -- The C compiler identification is GNU 11.4.0
+[0.667s] -- The CXX compiler identification is GNU 11.4.0
+[0.673s] -- Detecting C compiler ABI info
+[0.735s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.741s] -- Detecting C compile features
+[0.741s] -- Detecting C compile features - done
+[0.742s] -- Detecting CXX compiler ABI info
+[0.815s] -- Detecting CXX compiler ABI info - done
+[0.820s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.820s] -- Detecting CXX compile features
+[0.820s] -- Detecting CXX compile features - done
+[0.823s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.210s] -- Found Python3: /home/robousr/.pyenv/shims/python3 (found version "3.10.12") found components: Interpreter 
+[1.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.341s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.351s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.410s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.755s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.409s] -- Found PythonInterp: /home/robousr/.pyenv/shims/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.411s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.467s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.467s] -- Using PYTHON_EXECUTABLE: /home/robousr/.pyenv/shims/python3
+[2.467s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.467s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.515s] -- Found PythonExtra: .so  
+[2.577s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.592s] -- Added test 'lint_cmake' to check CMake code style
+[2.593s] -- Added test 'xmllint' to check XML markup files
+[2.595s] -- Configuring done
+[2.615s] -- Generating done
+[2.620s] -- Build files have been written to: /home/robousr/workspace/proyecto/Spatial/build/example_interfaces
+[2.626s] Invoked command in '/home/robousr/workspace/proyecto/Spatial/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/workspace/proyecto/Planar/install/example_pkg:/home/robousr/workspace/proyecto/Planar/install/example_description:/home/robousr/workspace/proyecto/Planar/install/example_control:/home/robousr/workspace/proyecto/Planar/install/example_bringup:/opt/ros/humble /usr/bin/cmake /home/robousr/workspace/proyecto/Spatial/src/example_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robousr/workspace/proyecto/Spatial/install/example_interfaces
+[2.626s] Invoking command in '/home/robousr/workspace/proyecto/Spatial/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/workspace/proyecto/Planar/install/example_pkg:/home/robousr/workspace/proyecto/Planar/install/example_description:/home/robousr/workspace/proyecto/Planar/install/example_control:/home/robousr/workspace/proyecto/Planar/install/example_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/workspace/proyecto/Spatial/build/example_interfaces -- -j4 -l4
+[2.656s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.663s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.670s] [  6%] Built target ament_cmake_python_symlink_example_interfaces
+[2.863s] [  9%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_c.dir/rosidl_generator_c/example_interfaces/msg/detail/example_msg__functions.c.o[0m
+[2.866s] [  9%] Built target example_interfaces__cpp
+[2.876s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.876s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.905s] [ 19%] [32m[1mLinking C shared library libexample_interfaces__rosidl_generator_c.so[0m
+[2.923s] running egg_info
+[2.924s] creating example_interfaces.egg-info
+[2.924s] writing example_interfaces.egg-info/PKG-INFO
+[2.924s] writing dependency_links to example_interfaces.egg-info/dependency_links.txt
+[2.924s] writing top-level names to example_interfaces.egg-info/top_level.txt
+[2.924s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[2.926s] reading manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[2.927s] writing manifest file 'example_interfaces.egg-info/SOURCES.txt'
+[2.942s] [ 19%] Built target example_interfaces__rosidl_generator_c
+[2.945s] [ 19%] Built target ament_cmake_python_build_example_interfaces_egg
+[2.952s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.954s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.077s] [ 29%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/example_interfaces/msg/example_msg__type_support.cpp.o[0m
+[3.097s] [ 32%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/example_interfaces/msg/detail/dds_fastrtps/example_msg__type_support.cpp.o[0m
+[3.165s] [ 35%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/example_interfaces/msg/detail/example_msg__type_support.cpp.o[0m
+[3.184s] [ 38%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/example_interfaces/msg/detail/example_msg__type_support_c.cpp.o[0m
+[3.262s] [ 41%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_cpp.so[0m
+[3.298s] [ 41%] Built target example_interfaces__rosidl_typesupport_cpp
+[3.308s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.406s] [ 48%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.430s] [ 51%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.471s] [ 51%] Built target example_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.483s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.490s] [ 54%] Built target example_interfaces__rosidl_typesupport_fastrtps_c
+[3.514s] [ 58%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.517s] [ 61%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/example_interfaces/msg/detail/example_msg__type_support.c.o[0m
+[3.544s] [ 64%] [32m[1mLinking C shared library libexample_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.564s] [ 64%] Built target example_interfaces__rosidl_typesupport_introspection_cpp
+[3.572s] [ 64%] Built target example_interfaces__rosidl_typesupport_introspection_c
+[3.660s] [ 67%] [32mBuilding CXX object CMakeFiles/example_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/example_interfaces/msg/example_msg__type_support.cpp.o[0m
+[3.682s] [ 70%] [32m[1mLinking CXX shared library libexample_interfaces__rosidl_typesupport_c.so[0m
+[3.711s] [ 70%] Built target example_interfaces__rosidl_typesupport_c
+[3.726s] [ 70%] Built target example_interfaces
+[3.742s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.939s] [ 74%] Built target example_interfaces__py
+[3.953s] [ 77%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_generator_py.dir/rosidl_generator_py/example_interfaces/msg/_example_msg_s.c.o[0m
+[4.015s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/libexample_interfaces__rosidl_generator_py.so[0m
+[4.045s] [ 80%] Built target example_interfaces__rosidl_generator_py
+[4.062s] [ 87%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.062s] [ 87%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.062s] [ 90%] [32mBuilding C object CMakeFiles/example_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.128s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.128s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.128s] [100%] [32m[1mLinking C shared library rosidl_generator_py/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.157s] [100%] Built target example_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.157s] [100%] Built target example_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.157s] [100%] Built target example_interfaces__rosidl_typesupport_c__pyext
+[4.164s] Invoked command in '/home/robousr/workspace/proyecto/Spatial/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/workspace/proyecto/Planar/install/example_pkg:/home/robousr/workspace/proyecto/Planar/install/example_description:/home/robousr/workspace/proyecto/Planar/install/example_control:/home/robousr/workspace/proyecto/Planar/install/example_bringup:/opt/ros/humble /usr/bin/cmake --build /home/robousr/workspace/proyecto/Spatial/build/example_interfaces -- -j4 -l4
+[4.171s] Invoking command in '/home/robousr/workspace/proyecto/Spatial/build/example_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/workspace/proyecto/Planar/install/example_pkg:/home/robousr/workspace/proyecto/Planar/install/example_description:/home/robousr/workspace/proyecto/Planar/install/example_control:/home/robousr/workspace/proyecto/Planar/install/example_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/workspace/proyecto/Spatial/build/example_interfaces
+[4.176s] -- Install configuration: ""
+[4.177s] -- Execute custom install script
+[4.177s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/ament_index/resource_index/rosidl_interfaces/example_interfaces
+[4.183s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__functions.h
+[4.188s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.h
+[4.194s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.h
+[4.199s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.h
+[4.204s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.210s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/library_path.sh
+[4.216s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/library_path.dsv
+[4.221s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_c.h
+[4.227s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.234s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_c.h
+[4.239s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.246s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__builder.hpp
+[4.251s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__struct.hpp
+[4.257s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__traits.hpp
+[4.262s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__type_support.hpp
+[4.268s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/example_msg.hpp
+[4.273s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.279s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[4.285s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.290s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/include/example_interfaces/example_interfaces/msg/detail/example_msg__rosidl_typesupport_introspection_cpp.hpp
+[4.296s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/pythonpath.sh
+[4.302s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/pythonpath.dsv
+[4.308s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.313s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.319s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.325s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.332s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py
+[4.337s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_c.c
+[4.344s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.350s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/_example_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.356s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.361s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.367s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.372s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/libexample_interfaces__rosidl_generator_py.so
+[4.378s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py
+[4.384s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py
+[4.390s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg_s.c
+[4.398s] -- Up-to-date symlink: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.398s] -- Up-to-date symlink: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.398s] -- Up-to-date symlink: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/example_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.398s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.idl
+[4.404s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/msg/ExampleMsg.msg
+[4.411s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+[4.417s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+[4.422s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+[4.428s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+[4.433s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/path.sh
+[4.439s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/environment/path.dsv
+[4.445s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/local_setup.bash
+[4.451s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/local_setup.sh
+[4.457s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/local_setup.zsh
+[4.462s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/local_setup.dsv
+[4.468s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/package.dsv
+[4.473s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+[4.478s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.484s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.489s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.495s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.500s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.506s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.511s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.517s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+[4.523s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+[4.529s] -- Symlinking: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/package.xml
+[4.534s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so
+[4.535s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_c.so" to ""
+[4.535s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.535s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.535s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
+[4.536s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.536s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so
+[4.536s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_c.so" to ""
+[4.536s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.536s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.536s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.537s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.537s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+[4.537s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.600s] Listing '/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces'...
+[4.600s] Compiling '/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/__init__.py'...
+[4.600s] Listing '/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg'...
+[4.600s] Compiling '/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/__init__.py'...
+[4.600s] Compiling '/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/local/lib/python3.10/dist-packages/example_interfaces/msg/_example_msg.py'...
+[4.602s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so
+[4.603s] -- Set runtime path of "/home/robousr/workspace/proyecto/Spatial/install/example_interfaces/lib/libexample_interfaces__rosidl_generator_py.so" to ""
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport.cmake
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_cppExport.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/example_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport.cmake
+[4.604s] -- Installing: /home/robousr/workspace/proyecto/Spatial/install/example_interfaces/share/example_interfaces/cmake/export_example_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.606s] Invoked command in '/home/robousr/workspace/proyecto/Spatial/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robousr/workspace/proyecto/Planar/install/example_pkg:/home/robousr/workspace/proyecto/Planar/install/example_description:/home/robousr/workspace/proyecto/Planar/install/example_control:/home/robousr/workspace/proyecto/Planar/install/example_bringup:/opt/ros/humble /usr/bin/cmake --install /home/robousr/workspace/proyecto/Spatial/build/example_interfaces

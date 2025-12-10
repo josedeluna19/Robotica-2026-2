@@ -1,0 +1,26 @@
+[0.902s] Invoking command in '/home/robousr/workspace/proyecto/Spatial/build/example_bringup': PYTHONPATH=/home/robousr/workspace/proyecto/Spatial/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/workspace/proyecto/Spatial/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/workspace/proyecto/Spatial/build/example_bringup/build --no-deps symlink_data
+[1.135s] running develop
+[1.295s] running egg_info
+[1.295s] creating example_bringup.egg-info
+[1.295s] writing example_bringup.egg-info/PKG-INFO
+[1.295s] writing dependency_links to example_bringup.egg-info/dependency_links.txt
+[1.295s] writing entry points to example_bringup.egg-info/entry_points.txt
+[1.295s] writing requirements to example_bringup.egg-info/requires.txt
+[1.295s] writing top-level names to example_bringup.egg-info/top_level.txt
+[1.295s] writing manifest file 'example_bringup.egg-info/SOURCES.txt'
+[1.295s] reading manifest file 'example_bringup.egg-info/SOURCES.txt'
+[1.296s] writing manifest file 'example_bringup.egg-info/SOURCES.txt'
+[1.296s] running build_ext
+[1.297s] Creating /home/robousr/workspace/proyecto/Spatial/install/example_bringup/lib/python3.10/site-packages/example-bringup.egg-link (link to .)
+[1.297s] 
+[1.297s] Installed /home/robousr/workspace/proyecto/Spatial/build/example_bringup
+[1.297s] running symlink_data
+[1.298s] creating /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/ament_index
+[1.298s] creating /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/ament_index/resource_index
+[1.298s] creating /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/ament_index/resource_index/packages
+[1.298s] symbolically linking /home/robousr/workspace/proyecto/Spatial/build/example_bringup/resource/example_bringup -> /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/ament_index/resource_index/packages
+[1.298s] symbolically linking /home/robousr/workspace/proyecto/Spatial/build/example_bringup/package.xml -> /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/example_bringup
+[1.298s] creating /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/example_bringup/launch
+[1.298s] symbolically linking /home/robousr/workspace/proyecto/Spatial/build/example_bringup/launch/controler.launch.py -> /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/example_bringup/launch
+[1.298s] symbolically linking /home/robousr/workspace/proyecto/Spatial/build/example_bringup/launch/rviz_bringup.launch.py -> /home/robousr/workspace/proyecto/Spatial/install/example_bringup/share/example_bringup/launch
+[1.539s] Invoked command in '/home/robousr/workspace/proyecto/Spatial/build/example_bringup' returned '0': PYTHONPATH=/home/robousr/workspace/proyecto/Spatial/build/example_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robousr/workspace/proyecto/Spatial/install/example_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robousr/workspace/proyecto/Spatial/build/example_bringup/build --no-deps symlink_data

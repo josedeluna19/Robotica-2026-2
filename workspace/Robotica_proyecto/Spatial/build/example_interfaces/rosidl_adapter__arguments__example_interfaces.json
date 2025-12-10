@@ -1,0 +1,6 @@
+{
+  "package_name": "example_interfaces",
+  "non_idl_tuples": [
+    "/home/robousr/workspace/proyecto/Spatial/src/example_interfaces:msg/ExampleMsg.msg"
+  ]
+}

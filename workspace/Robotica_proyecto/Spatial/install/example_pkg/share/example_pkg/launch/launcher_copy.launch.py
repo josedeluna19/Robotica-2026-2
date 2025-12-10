@@ -1,0 +1,1 @@
+/home/robousr/workspace/proyecto/Spatial/build/example_pkg/launch/launcher_copy.launch.py
