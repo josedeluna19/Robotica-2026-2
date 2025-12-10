@@ -9,24 +9,24 @@ Repositorio para los archivos de la práctica 1 de la materia Robótica.
 
 ## Instrucciones del work space
 
-rm -rf build install log
-source /opt/ros/humble/setup.bash
-colcon build --symlink-install --allow-overriding example_interfaces
-source install/setup.bash
-ros2 launch example_bringup rviz_bringup.launch.py
+1.rm -rf build install log
+2.source /opt/ros/humble/setup.bash
+3.colcon build --symlink-install --allow-overriding example_interfaces
+4.source install/setup.bash
+5.ros2 launch example_bringup rviz_bringup.launch.py
 
 En otra terminal 
-source /opt/ros/humble/setup.bash
-source install/setup.bash
-ros2 launch example_bringup controler.launch.py
+1.source /opt/ros/humble/setup.bash
+2.source install/setup.bash
+3.ros2 launch example_bringup controler.launch.py
 
-rm -rf build install log
-source /opt/ros/humble/setup.bash
-colcon build --symlink-install --allow-overriding example_interfaces
-source install/setup.bash
-ros2 launch example_bringup rviz_bringup.launch.py
+1.rm -rf build install log
+2.source /opt/ros/humble/setup.bash
+3.colcon build --symlink-install --allow-overriding example_interfaces
+4.source install/setup.bash
+5.ros2 launch example_bringup rviz_bringup.launch.py
 
 En otra terminal 
-source /opt/ros/humble/setup.bash
-source install/setup.bash
-ros2 launch example_bringup controler.launch.py
+1.source /opt/ros/humble/setup.bash
+2.source install/setup.bash
+3.ros2 launch example_bringup controler.launch.py
